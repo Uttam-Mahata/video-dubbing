@@ -1,0 +1,162 @@
+{
+  "ea4efcb4-a963-4ad7-8b30-0c7857c2336b": {
+    "id": "ea4efcb4-a963-4ad7-8b30-0c7857c2336b",
+    "video_file": {
+      "id": "8ee412e0-bdcd-4eaa-bbba-78e3c73730c5",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 24077732,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 13:03:19.341199",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 13:03:19.341424"
+  },
+  "c6934097-0a09-431c-a0f1-4beafb1884fa": {
+    "id": "c6934097-0a09-431c-a0f1-4beafb1884fa",
+    "video_file": {
+      "id": "1f1fbe05-2679-4a82-b3be-cefa48673703",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 13:44:07.537781",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 13:44:07.538079"
+  },
+  "21f03948-336e-4a00-ab08-627f615885fd": {
+    "id": "21f03948-336e-4a00-ab08-627f615885fd",
+    "video_file": {
+      "id": "4dd67a48-f208-4cec-be7e-d85c1d801047",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 13:48:06.909542",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 13:48:06.909775"
+  },
+  "5f4df1ea-5d2f-4b8b-8d90-e57365a9b293": {
+    "id": "5f4df1ea-5d2f-4b8b-8d90-e57365a9b293",
+    "video_file": {
+      "id": "e31af31b-6e6b-4af0-9ef3-acb1c9b3d4e5",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 13:50:00.990570",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 13:50:00.990993"
+  },
+  "30a4c98a-e33c-4517-b1ec-019f654bd8af": {
+    "id": "30a4c98a-e33c-4517-b1ec-019f654bd8af",
+    "video_file": {
+      "id": "97b4736e-123c-4a58-98cd-5115010d666a",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 13:51:15.063243",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 13:51:15.063535"
+  },
+  "67c74f8c-567c-4305-bcf0-302378527f7f": {
+    "id": "67c74f8c-567c-4305-bcf0-302378527f7f",
+    "video_file": {
+      "id": "5eb829d6-ec61-441d-8700-ba5bc69f6a8c",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 13:56:43.088826",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 13:56:43.089523"
+  },
+  "0ef7bdb6-2278-423e-9ed0-05c90bde862e": {
+    "id": "0ef7bdb6-2278-423e-9ed0-05c90bde862e",
+    "video_file": {
+      "id": "cbf1d656-c64f-4233-88bd-b18aa07012ee",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 14:08:07.294667",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 14:08:07.295486"
+  },
+  "e162a86c-699d-4708-a126-e2be3b774b4e": {
+    "id": "e162a86c-699d-4708-a126-e2be3b774b4e",
+    "video_file": {
+      "id": "abb307c4-d2f7-4758-bac1-fcaf6ac1fb56",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 14:20:06.115968",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 14:20:06.116523"
+  },
+  "3749f450-29fe-40ea-b5eb-3a5536c151f2": {
+    "id": "3749f450-29fe-40ea-b5eb-3a5536c151f2",
+    "video_file": {
+      "id": "43a1a0ae-d5df-4eac-9932-167705be45e6",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 14:25:34.116200",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 14:25:34.116691"
+  },
+  "5af8cad3-1978-4531-912b-8f9d4ff28ce2": {
+    "id": "5af8cad3-1978-4531-912b-8f9d4ff28ce2",
+    "video_file": {
+      "id": "44c07d15-486f-4cd0-bc5f-a0f0e9b87951",
+      "filename": "video.mp4",
+      "file_path": "uploads/video.mp4",
+      "file_size": 4403995,
+      "mime_type": "video/mp4",
+      "uploaded_at": "2025-06-26 14:32:36.899130",
+      "gemini_file_uri": null
+    },
+    "target_language": "en-US",
+    "voice_style": "natural",
+    "preserve_emotions": true,
+    "created_at": "2025-06-26 14:32:36.899981"
+  }
+}

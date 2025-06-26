@@ -1,0 +1,107 @@
+{
+  "8ee412e0-bdcd-4eaa-bbba-78e3c73730c5": {
+    "id": "8ee412e0-bdcd-4eaa-bbba-78e3c73730c5",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 24077732,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 13:03:19.341199",
+    "gemini_file_uri": null
+  },
+  "1f1fbe05-2679-4a82-b3be-cefa48673703": {
+    "id": "1f1fbe05-2679-4a82-b3be-cefa48673703",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 13:44:07.537781",
+    "gemini_file_uri": "files/3g4yrhr7dvk3"
+  },
+  "4dd67a48-f208-4cec-be7e-d85c1d801047": {
+    "id": "4dd67a48-f208-4cec-be7e-d85c1d801047",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 13:48:06.909542",
+    "gemini_file_uri": {
+      "name": "files/d5zxsl5d8avg",
+      "display_name": null,
+      "mime_type": "video/mp4",
+      "size_bytes": 4403995,
+      "create_time": "2025-06-26 13:48:33.145527+00:00",
+      "expiration_time": "2025-06-28 13:48:33.014791+00:00",
+      "update_time": "2025-06-26 13:48:33.145527+00:00",
+      "sha256_hash": "NTM1ZTU3NGUyYTc4NWRjYWFkM2U2NTQ2OTgwZmY2ZDI3ZGQ2NjkxYmUyYjJmMTE0ZTZiNjI3ODhmZTZjMzE2ZA==",
+      "uri": "https://generativelanguage.googleapis.com/v1beta/files/d5zxsl5d8avg",
+      "download_uri": null,
+      "state": "PROCESSING",
+      "source": "UPLOADED",
+      "video_metadata": null,
+      "error": null
+    }
+  },
+  "e31af31b-6e6b-4af0-9ef3-acb1c9b3d4e5": {
+    "id": "e31af31b-6e6b-4af0-9ef3-acb1c9b3d4e5",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 13:50:00.990570",
+    "gemini_file_uri": "files/pef9jy0098sn"
+  },
+  "97b4736e-123c-4a58-98cd-5115010d666a": {
+    "id": "97b4736e-123c-4a58-98cd-5115010d666a",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 13:51:15.063243",
+    "gemini_file_uri": "files/1qjv18iyzdux"
+  },
+  "5eb829d6-ec61-441d-8700-ba5bc69f6a8c": {
+    "id": "5eb829d6-ec61-441d-8700-ba5bc69f6a8c",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 13:56:43.088826",
+    "gemini_file_uri": "files/xrs9tksv7dyt"
+  },
+  "cbf1d656-c64f-4233-88bd-b18aa07012ee": {
+    "id": "cbf1d656-c64f-4233-88bd-b18aa07012ee",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 14:08:07.294667",
+    "gemini_file_uri": "files/on7flblrkwxc"
+  },
+  "abb307c4-d2f7-4758-bac1-fcaf6ac1fb56": {
+    "id": "abb307c4-d2f7-4758-bac1-fcaf6ac1fb56",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 14:20:06.115968",
+    "gemini_file_uri": "files/waq3ptz9ldbw"
+  },
+  "43a1a0ae-d5df-4eac-9932-167705be45e6": {
+    "id": "43a1a0ae-d5df-4eac-9932-167705be45e6",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 14:25:34.116200",
+    "gemini_file_uri": "files/ax3vu8elkwo7"
+  },
+  "44c07d15-486f-4cd0-bc5f-a0f0e9b87951": {
+    "id": "44c07d15-486f-4cd0-bc5f-a0f0e9b87951",
+    "filename": "video.mp4",
+    "file_path": "uploads/video.mp4",
+    "file_size": 4403995,
+    "mime_type": "video/mp4",
+    "uploaded_at": "2025-06-26 14:32:36.899130",
+    "gemini_file_uri": "files/ffl9ccy2hm2h"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "fc30807d-670c-483a-ad90-2ad2774454ee": {
+    "id": "fc30807d-670c-483a-ad90-2ad2774454ee",
+    "request_id": "ea4efcb4-a963-4ad7-8b30-0c7857c2336b",
+    "status": "processing",
+    "video_analysis": null,
+    "audio_file_path": null,
+    "processing_time": null,
+    "error_message": null,
+    "created_at": "2025-06-26 13:03:19.341553",
+    "completed_at": null
+  },
+  "097d7228-d998-42ad-bcfd-f3ed1b1f2f67": {
+    "id": "097d7228-d998-42ad-bcfd-f3ed1b1f2f67",
+    "request_id": "c6934097-0a09-431c-a0f1-4beafb1884fa",
+    "status": "failed",
+    "video_analysis": null,
+    "audio_file_path": null,
+    "processing_time": null,
+    "error_message": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Invalid or unsupported file uri: files/3g4yrhr7dvk3', 'status': 'INVALID_ARGUMENT'}}",
+    "created_at": "2025-06-26 13:44:07.538254",
+    "completed_at": null
+  },
+  "2ddf618a-05c7-4280-8678-e6bec23ee828": {
+    "id": "2ddf618a-05c7-4280-8678-e6bec23ee828",
+    "request_id": "21f03948-336e-4a00-ab08-627f615885fd",
+    "status": "failed",
+    "video_analysis": null,
+    "audio_file_path": null,
+    "processing_time": null,
+    "error_message": "1 validation error for FileData\nfile_uri\n  Input should be a valid string [type=string_type, input_value=File(\n  create_time=datet...ta/files/d5zxsl5d8avg'\n), input_type=File]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type",
+    "created_at": "2025-06-26 13:48:06.909950",
+    "completed_at": null
+  },
+  "b63f437f-3bb2-4eb6-a972-7249cf607222": {
+    "id": "b63f437f-3bb2-4eb6-a972-7249cf607222",
+    "request_id": "5f4df1ea-5d2f-4b8b-8d90-e57365a9b293",
+    "status": "completed",
+    "video_analysis": {
+      "duration": 56.0,
+      "speaker_count": 2,
+      "speakers": [
+        {
+          "id": "f6a1613e-1817-4c5f-85fb-10f46b37d2e9",
+          "name": "Speaker 1",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba4\u0bc6\u0baf\u0bcd\u0bb5\u0bae\u0bcd, \u0b89\u0bb3\u0bcd\u0bb3\u0bc7 \u0b8e\u0ba9\u0bcd \u0b9c\u0bc0\u0bb5\u0ba9\u0bcd \u0ba8\u0bc0.",
+            "\u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd, \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd."
+          ],
+          "timestamps": [
+            [
+              0.0,
+              6.0
+            ],
+            [
+              31.0,
+              43.0
+            ]
+          ]
+        },
+        {
+          "id": "1354f5c5-9261-4ea0-97c5-64026b479cdd",
+          "name": "Speaker 2",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0bb9\u0bc7\u0baf\u0bcd, \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe, \u0ba8\u0bc8\u0b9f\u0bcd \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9\u0bbe \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f?",
+            "\u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc7\u0ba9\u0bcd.",
+            "\u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1?",
+            "\u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe.",
+            "\u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba9\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4\u0bbe?",
+            "\u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0bae\u0bb3\u0bc8 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0b9f\u0bbe, \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0baa\u0bcb\u0b95\u0bc1\u0ba4\u0bc1."
+          ],
+          "timestamps": [
+            [
+              11.0,
+              14.0
+            ],
+            [
+              16.0,
+              17.0
+            ],
+            [
+              20.0,
+              21.0
+            ],
+            [
+              22.0,
+              23.0
+            ],
+            [
+              27.0,
+              29.0
+            ],
+            [
+              43.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "id": "5c30171d-7b3b-4455-90d4-4ac8988fb2a3",
+          "name": "Speaker 3",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe?",
+            "\u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe?"
+          ],
+          "timestamps": [
+            [
+              21.0,
+              22.0
+            ],
+            [
+              24.0,
+              26.0
+            ]
+          ]
+        }
+      ],
+      "transcript": "\u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba4\u0bc6\u0baf\u0bcd\u0bb5\u0bae\u0bcd, \u0b89\u0bb3\u0bcd\u0bb3\u0bc7 \u0b8e\u0ba9\u0bcd \u0b9c\u0bc0\u0bb5\u0ba9\u0bcd \u0ba8\u0bc0. \u0b93\u0bb9\u0bcb, \u0ba8\u0bc0. \u0bb9\u0bc7\u0baf\u0bcd, \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe, \u0ba8\u0bc8\u0b9f\u0bcd \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9\u0bbe \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f? \u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc7\u0ba9\u0bcd. \u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1? \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe? \u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe. \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe? \u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba9\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4\u0bbe? \u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd, \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd. \u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0bae\u0bb3\u0bc8 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0b9f\u0bbe, \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0baa\u0bcb\u0b95\u0bc1\u0ba4\u0bc1.",
+      "dialogue_format": "true",
+      "language_detected": "Tamil"
+    },
+    "audio_file_path": "outputs/dubbed_video.mp4.wav",
+    "processing_time": null,
+    "error_message": null,
+    "created_at": "2025-06-26 13:50:00.991315",
+    "completed_at": null
+  },
+  "b7deb9fc-cc20-4d0a-be89-cd3b5fba9ead": {
+    "id": "b7deb9fc-cc20-4d0a-be89-cd3b5fba9ead",
+    "request_id": "30a4c98a-e33c-4517-b1ec-019f654bd8af",
+    "status": "failed",
+    "video_analysis": null,
+    "audio_file_path": null,
+    "processing_time": null,
+    "error_message": "'NoneType' object has no attribute 'parts'",
+    "created_at": "2025-06-26 13:51:15.063715",
+    "completed_at": null
+  },
+  "92b4b4a5-4593-4ad2-9c23-5bc6c37f7d4d": {
+    "id": "92b4b4a5-4593-4ad2-9c23-5bc6c37f7d4d",
+    "request_id": "67c74f8c-567c-4305-bcf0-302378527f7f",
+    "status": "failed",
+    "video_analysis": null,
+    "audio_file_path": null,
+    "processing_time": null,
+    "error_message": "Unexpected multi-speaker TTS response structure: sdk_http_response=HttpResponse(\n  headers=<dict len=11>\n) candidates=[Candidate(\n  finish_reason=<FinishReason.OTHER: 'OTHER'>,\n  index=0\n)] create_time=None response_id=None model_version='gemini-2.5-flash-preview-tts' prompt_feedback=None usage_metadata=GenerateContentResponseUsageMetadata(\n  prompt_token_count=15,\n  prompt_tokens_details=[\n    ModalityTokenCount(\n      modality=<MediaModality.TEXT: 'TEXT'>,\n      token_count=15\n    ),\n  ],\n  total_token_count=15\n) automatic_function_calling_history=[] parsed=None",
+    "created_at": "2025-06-26 13:56:43.090080",
+    "completed_at": null
+  },
+  "ec149178-f68b-4f45-82d2-63d49c3d3eb7": {
+    "id": "ec149178-f68b-4f45-82d2-63d49c3d3eb7",
+    "request_id": "0ef7bdb6-2278-423e-9ed0-05c90bde862e",
+    "status": "completed",
+    "video_analysis": {
+      "duration": 57.0,
+      "speaker_count": 2,
+      "speakers": [
+        {
+          "id": "ab685d53-e7c9-4174-bd40-4a03cb0cca05",
+          "name": "Speaker 1",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba4\u0bc7\u0bb5\u0ba9\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0bc7 \u0b8e\u0ba9\u0bcd \u0b9c\u0bc0\u0bb5\u0ba9\u0bcd \u0ba8\u0bc0 \u0ba8\u0bc0 \u0bae\u0b9f\u0bcd\u0b9f\u0bc1\u0bae\u0bc7",
+            "\u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe",
+            "\u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe",
+            "\u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd",
+            "\u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0b9f\u0bbe \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0b8e\u0b9f\u0bc1\u0b95\u0bcd\u0b95 \u0baa\u0bcb\u0b95\u0bc1\u0ba4\u0bc1"
+          ],
+          "timestamps": [
+            [
+              0.0,
+              9.0
+            ],
+            [
+              22.0,
+              22.0
+            ],
+            [
+              25.0,
+              26.0
+            ],
+            [
+              31.0,
+              43.0
+            ],
+            [
+              44.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "id": "bfedb765-2305-4a6b-a36f-e201c3706107",
+          "name": "Speaker 2",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe \u0ba8\u0bc8\u0b9f\u0bcd\u0b9f\u0bc1 \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9 \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f \u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95",
+            "\u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1",
+            "\u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe",
+            "\u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba3\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4"
+          ],
+          "timestamps": [
+            [
+              11.0,
+              18.0
+            ],
+            [
+              20.0,
+              21.0
+            ],
+            [
+              23.0,
+              23.0
+            ],
+            [
+              27.0,
+              30.0
+            ]
+          ]
+        }
+      ],
+      "transcript": "\u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba4\u0bc7\u0bb5\u0ba9\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0bc7 \u0b8e\u0ba9\u0bcd \u0b9c\u0bc0\u0bb5\u0ba9\u0bcd \u0ba8\u0bc0 \u0ba8\u0bc0 \u0bae\u0b9f\u0bcd\u0b9f\u0bc1\u0bae\u0bc7 \u0b8f \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe \u0ba8\u0bc8\u0b9f\u0bcd\u0b9f\u0bc1 \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9 \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f \u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95 \u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe \u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe \u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba3\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4 \u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0b9f\u0bbe \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0b8e\u0b9f\u0bc1\u0b95\u0bcd\u0b95 \u0baa\u0bcb\u0b95\u0bc1\u0ba4\u0bc1 ",
+      "dialogue_format": "true",
+      "language_detected": "Tamil"
+    },
+    "audio_file_path": "outputs/dubbed_video.mp4.wav",
+    "processing_time": null,
+    "error_message": null,
+    "created_at": "2025-06-26 14:08:07.296225",
+    "completed_at": null
+  },
+  "4a914d4c-157f-48c8-9926-a283ac73d73b": {
+    "id": "4a914d4c-157f-48c8-9926-a283ac73d73b",
+    "request_id": "e162a86c-699d-4708-a126-e2be3b774b4e",
+    "status": "completed",
+    "video_analysis": {
+      "duration": 56.0,
+      "speaker_count": 2,
+      "speakers": [
+        {
+          "id": "c436fa13-130f-4044-b795-37f26a2eac55",
+          "name": "Speaker 1",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba4\u0bc7\u0bb5\u0ba9\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0bc7 \u0b8e\u0ba9\u0bcd \u0b9c\u0bc0\u0bb5\u0ba9\u0bcd \u0ba8\u0bc0.",
+            "\u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd."
+          ],
+          "timestamps": [
+            [
+              0.0,
+              7.0
+            ],
+            [
+              31.0,
+              43.0
+            ]
+          ]
+        },
+        {
+          "id": "97c276fe-fa37-4ca6-9cf9-965d965f4727",
+          "name": "Speaker 2",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0b8f \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe? \u0ba8\u0bc8\u0b9f\u0bcd \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9\u0bbe \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f?",
+            "\u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc7\u0ba9\u0bcd.",
+            "\u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1?",
+            "\u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe\u0ba9\u0bcd.",
+            "\u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba3\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4\u0bbe?",
+            "\u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0bc7\u0b9f\u0bbe. \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0b86\u0baf\u0bbf\u0b9f\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba4\u0bc1."
+          ],
+          "timestamps": [
+            [
+              12.0,
+              14.0
+            ],
+            [
+              15.0,
+              17.0
+            ],
+            [
+              20.0,
+              21.0
+            ],
+            [
+              23.0,
+              24.0
+            ],
+            [
+              27.0,
+              30.0
+            ],
+            [
+              43.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "id": "8e02108b-d632-4dec-b2d2-6ec4056a209c",
+          "name": "Speaker 3",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "\u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe?",
+            "\u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe?"
+          ],
+          "timestamps": [
+            [
+              22.0,
+              23.0
+            ],
+            [
+              24.0,
+              26.0
+            ]
+          ]
+        }
+      ],
+      "transcript": "\u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba4\u0bc7\u0bb5\u0ba9\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0bc7 \u0b8e\u0ba9\u0bcd \u0b9c\u0bc0\u0bb5\u0ba9\u0bcd \u0ba8\u0bc0. Only you. \u0b8f \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe? \u0ba8\u0bc8\u0b9f\u0bcd \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9\u0bbe \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f? \u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc7\u0ba9\u0bcd. \u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1? \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe? \u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe\u0ba9\u0bcd. \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe? \u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba3\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4\u0bbe? \u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd. \u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0bc7\u0b9f\u0bbe. \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0b86\u0baf\u0bbf\u0b9f\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba4\u0bc1.",
+      "dialogue_format": "true",
+      "language_detected": "Tamil"
+    },
+    "audio_file_path": "outputs/dubbed_video.mp4.wav",
+    "processing_time": null,
+    "error_message": null,
+    "created_at": "2025-06-26 14:20:06.116975",
+    "completed_at": null
+  },
+  "fb874cfe-cf32-4b54-b32b-387126273199": {
+    "id": "fb874cfe-cf32-4b54-b32b-387126273199",
+    "request_id": "3749f450-29fe-40ea-b5eb-3a5536c151f2",
+    "status": "completed",
+    "video_analysis": {
+      "duration": 56.0,
+      "speaker_count": 2,
+      "speakers": [
+        {
+          "id": "c8b47232-ea7f-45ad-bba8-2c0025da503e",
+          "name": "Speaker 1",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "00:00 The lord of my heart",
+            "00:03 The life within me",
+            "00:06 Is you",
+            "00:07 You",
+            "00:31 \u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b87\u0b99\u0bcd\u0b95\u0bc1 \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd"
+          ],
+          "timestamps": [
+            [
+              0.0,
+              7.0
+            ],
+            [
+              31.0,
+              43.0
+            ]
+          ]
+        },
+        {
+          "id": "b8ecb5fd-80dc-4cfa-ad4b-6827f00c727b",
+          "name": "Speaker 2",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "00:11 Hey! \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe \u0ba8\u0bc8\u0b9f\u0bcd \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9\u0bc1 \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f?",
+            "00:19 \u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1?",
+            "00:23 \u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe\u0ba9\u0bcd",
+            "00:27 \u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba9\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4\u0bbe?",
+            "00:43 \u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0b9f\u0bbe \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0b85\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba4\u0bc1"
+          ],
+          "timestamps": [
+            [
+              11.0,
+              15.0
+            ],
+            [
+              19.0,
+              21.0
+            ],
+            [
+              23.0,
+              24.0
+            ],
+            [
+              27.0,
+              30.0
+            ],
+            [
+              43.0,
+              47.0
+            ]
+          ]
+        }
+      ],
+      "transcript": "00:00 [Music] The lord of my heart\nThe life within me\nIs you\n00:08 You\n00:11 Hey! \u0b8e\u0ba9\u0bcd\u0ba9\u0baf\u0bbe \u0ba8\u0bc8\u0b9f\u0bcd \u0bb5\u0bb0\u0bc7\u0ba9\u0bcd\u0ba9\u0bc1 \u0b85\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bb3\u0bcd\u0bb3 \u0bb5\u0ba8\u0bcd\u0ba4\u0bc1\u0b9f\u0bcd\u0b9f?\n00:15 \u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0baa\u0bc7\u0b9a\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95?\n00:19 \u0b8e\u0ba9\u0bcd\u0ba9 \u0ba4\u0bc7\u0b9f\u0bc1\u0bb1?\n00:22 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bbf\u0ba9\u0bbe?\n00:23 \u0ba8\u0bbe\u0ba9\u0bcd\u0ba4\u0bbe\u0ba9\u0bcd\n00:25 \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baf\u0bbe\u0bb0\u0bcd \u0baa\u0bbe\u0b9f\u0bc1\u0ba9\u0bbe?\n00:27 \u0b8e\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0b85\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b9f\u0bc7\u0bb2\u0ba9\u0bcd\u0b9f\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b89\u0ba9\u0b95\u0bcd\u0b95\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bbe\u0ba4\u0bbe?\n00:31 \u0ba8\u0bbe\u0ba9\u0bcd \u0b95\u0bbe\u0ba3\u0bcd\u0baa\u0ba4\u0bc7 \u0b89\u0ba9\u0bcd \u0b95\u0bcb\u0bb2\u0bae\u0bc7 \u0b85\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b87\u0b99\u0bcd\u0b95\u0bc1 \u0b8e\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bcd\n00:43 \u0b93\u0bb5\u0bb0\u0bbe \u0baa\u0bca\u0bae\u0bcd\u0baa\u0bb3 \u0bb5\u0bbe\u0baf\u0bcd\u0bb8\u0bcd\u0bb2 \u0baa\u0bbe\u0b9f\u0bbe\u0ba4\u0b9f\u0bbe \u0bae\u0bc8\u0b95\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bbe \u0b85\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba4\u0bc1",
+      "dialogue_format": "dialogue",
+      "language_detected": "Tamil"
+    },
+    "audio_file_path": "outputs/dubbed_video.mp4.wav",
+    "processing_time": null,
+    "error_message": null,
+    "created_at": "2025-06-26 14:25:34.117088",
+    "completed_at": null
+  },
+  "51b37a67-884f-40a5-a7bb-8ce8358b9778": {
+    "id": "51b37a67-884f-40a5-a7bb-8ce8358b9778",
+    "request_id": "5af8cad3-1978-4531-912b-8f9d4ff28ce2",
+    "status": "completed",
+    "video_analysis": {
+      "duration": 56.0,
+      "speaker_count": 2,
+      "speakers": [
+        {
+          "id": "50dfb9d9-d925-4498-94f8-96619007102c",
+          "name": "Woman",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "I'm talking to you",
+            "Who was singing?",
+            "The girl's voice. Who was it?",
+            "Singing in a girl's voice is definitely going to shrink your mic"
+          ],
+          "timestamps": [
+            [
+              15.0,
+              17.0
+            ],
+            [
+              21.0,
+              22.0
+            ],
+            [
+              25.0,
+              26.0
+            ],
+            [
+              43.0,
+              46.0
+            ]
+          ]
+        },
+        {
+          "id": "518fe1b9-bde5-4396-aed4-6b2a99bee1ed",
+          "name": "Man",
+          "voice_name": "Kore",
+          "dialogue_segments": [
+            "Hey! what's up? You said you won't make it until tonight!",
+            "What are you looking for?",
+            "Me",
+            "I'm full of surprises"
+          ],
+          "timestamps": [
+            [
+              11.0,
+              14.0
+            ],
+            [
+              20.0,
+              21.0
+            ],
+            [
+              23.0,
+              24.0
+            ],
+            [
+              27.0,
+              28.0
+            ]
+          ]
+        }
+      ],
+      "transcript": "00:00 [Music] the lord of my heart The life within me Is you You Only you\n00:11 Hey! what's up? You said you won't make it until tonight!\n00:16 I'm talking to you\n00:20 What are you looking for?\n00:22 Who was singing?\n00:23 Me\n00:25 The girl's voice. Who was it?\n00:27 I'm full of surprises\n00:31 Wherever I look\n00:34 I see you\n00:36 Here...\n00:38 There...\n00:41 Everywhere\n00:44 Singing in a girl's voice is definitely going to shrink your mic overa Voice.\n00:56 [Laughs]",
+      "dialogue_format": "true",
+      "language_detected": "Tamil"
+    },
+    "audio_file_path": "outputs/dubbed_video.mp4.wav",
+    "processing_time": null,
+    "error_message": null,
+    "created_at": "2025-06-26 14:32:36.900669",
+    "completed_at": null
+  }
+}
